@@ -17,7 +17,6 @@ const AppRouter = observer(() => {
             key={path}
             path={path}
             element={<Component />}
-            exact
           />
         ))}
 
@@ -26,7 +25,6 @@ const AppRouter = observer(() => {
           key={path}
           path={path}
           element={<Component />}
-          exact
         />
       ))}
       <Route element={<Navigate to={SHOP_ROUTE} />} />
