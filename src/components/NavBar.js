@@ -41,7 +41,7 @@ const NavBar = observer(() => {
             <Button
               variant={'outline-light'}
               onClick={() => logOut()}
-              className='ms-4'
+              className='ms-2'
             >
               Выйти
             </Button>
