@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Card, Image } from 'react-bootstrap';
-import star from '../assets/star.png';
+import star from '../assets/star.svg';
 import { useNavigate } from 'react-router-dom';
 import { DEVICE_ROUTE } from '../utils/consts';
 
