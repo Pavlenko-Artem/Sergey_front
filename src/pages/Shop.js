@@ -1,12 +1,12 @@
-import React, { useContext, useEffect } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import TypeBar from "../components/TypeBar";
-import BrandBar from "../components/BrandBar";
-import DeviceList from "../components/DeviceList";
-import Pages from "../components/Pages";
-import { observer } from "mobx-react-lite";
-import { Context } from "..";
-import { fetchDevices, fetchBrands, fetchTypes } from "../http/deviceApi";
+import React, { useContext, useEffect } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import TypeBar from '../components/TypeBar';
+import BrandBar from '../components/BrandBar';
+import DeviceList from '../components/DeviceList';
+import Pages from '../components/Pages';
+import { observer } from 'mobx-react-lite';
+import { Context } from '..';
+import { fetchDevices, fetchBrands, fetchTypes } from '../http/deviceApi';
 
 const Shop = observer(() => {
   const { device } = useContext(Context);
@@ -34,7 +34,7 @@ const Shop = observer(() => {
 
   return (
     <Container>
-      <Row className="mt-2">
+      <Row className='mt-2'>
         <Col md={3}>
           <TypeBar />
         </Col>
